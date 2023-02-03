@@ -10,14 +10,12 @@
     background-attachment: fixed;
     @include tamanio(85vh, 100%);
     padding-right: 0px;
-
     &__content{
         display:flex;
         flex-direction:column;
         justify-content:space-evenly;
         align-items: flex-start;
-    
-    & h1 {
+        & h1 {
         font-size: 4.5rem;
         font-weight: 700;
         font-family: $font-brand;
@@ -28,14 +26,13 @@
         animation-timing-function: ease;
         animation-duration: 1s;
         animation-delay: 0;
-    }
+        }
     & p {
         font-size: 1.3rem;
         font-weight: 400;
         font-family: $font-p;
         color: $color-p;
     }
-
 }
 }
 
@@ -50,12 +47,11 @@
 
 .product {
     background-color: $color-background-body;
-    
-    & h3 {
+        & h3 {
         color: $color-second;
         font-size: 1.3rem;
     }
-    &__card-text {
+        &__card-text {
         font-size: 1.2rem;
         font-weight: 500;
         font-family: $font-p;
