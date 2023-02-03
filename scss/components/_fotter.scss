@@ -8,7 +8,8 @@
     background-repeat: no-repeat;
     width: 100%;
     padding-right: 0px;
-    &__grupo-1 {
+
+    .grupo-1 {
         width: 100%;
         max-width: 1200px;
         margin: auto;
@@ -16,12 +17,14 @@
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 50px;
         padding: 10px 0px;
+
         &__box {
             color: $color-second;
             text-shadow: 1px 1px $color-text-shadow;
             margin-bottom: 10px;
             font-size: 20px;
             text-align: center;
+
             &__h2 {
                 font-size: 2.5rem;
                 text-align: center;
@@ -30,12 +33,12 @@
                 font-family: $font-brand;
                 color: $color-primary;
             }
-            &__red-social {
+            .red-social {
                 float: inline-start;
-                & a {
+                a {
                     display: inline-block;
                     text-decoration: none;
-                    @include tamanio(45px,45px);
+                    @include tamanio(45px, 45px);
                     line-height: 45px;
                     color: $color-background-btn;
                     margin-right: 10px;
@@ -48,15 +51,18 @@
                     }
                 }
             }
-            }
+        }
     }
-    &__grupo-2 {
+
+    .grupo-2 {
         background-image: linear-gradient(90deg, $color-gradient1 0%, $color-gradient2 100%);
         padding: 15px 10px;
         text-align: center;
         color: $color-p;
+
         & small {
             font-size: 15px;
         }
     }
 }
+

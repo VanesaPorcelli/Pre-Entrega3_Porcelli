@@ -19,15 +19,6 @@
         border-bottom: 1px solid $color-p;
     }
 }
-
-.search {
-    @include tamanio(40vh, 80%);
-    border-radius: 60px;
-    margin-right: -35px;
-    border: 2px solid $color-background;
-    font-family: $font-titles;
-}
-
 .btn0 {
     @include tamanio(40px, 40%);
     border: none;

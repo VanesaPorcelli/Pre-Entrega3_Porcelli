@@ -1,0 +1,16 @@
+.card{
+    .card-img-top {
+        @include tamanio(33vh,100%);
+        object-fit: cover;
+    }
+    &:hover {
+        box-shadow: 1.5px 1.5px 1.5px 1.5px $color-box-shadow;
+    }
+}
+
+.container_p {
+    font-family: $font-p;
+    font-weight: 300;
+    font-size: 18px;
+    color: $color-second;
+}

@@ -29,14 +29,6 @@ a {
     border-top: 1px solid #060606;
     border-bottom: 1px solid #060606; }
 
-.search {
-  height: 40vh;
-  width: 80%;
-  border-radius: 60px;
-  margin-right: -35px;
-  border: 2px solid #f0791dfe;
-  font-family: Rubik; }
-
 .btn0 {
   height: 40px;
   width: 40%;
@@ -62,6 +54,13 @@ a {
   color: #a5214b;
   text-shadow: 1px 1px #333; }
 
+.titulo_card {
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Lato;
+  color: #a5214b; }
+
 /* MAIN DE PAG*/
 .pages__fondo {
   background-image: url(../assets/hero.jpg);
@@ -82,6 +81,20 @@ a {
   height: 20vh;
   width: 100%; }
 
+.card .card-img-top {
+  height: 33vh;
+  width: 100%;
+  object-fit: cover; }
+
+.card:hover {
+  box-shadow: 1.5px 1.5px 1.5px 1.5px #7d7c7c; }
+
+.container_p {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 18px;
+  color: #a5214b; }
+
 /* FOTTER*/
 .pie-pagina {
   background-image: url(../assets/fondo_prueba14.png);
@@ -91,53 +104,50 @@ a {
   background-repeat: no-repeat;
   width: 100%;
   padding-right: 0px; }
-
-.grupo-1 {
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 50px;
-  padding: 10px 0px; }
-  .grupo-1__box {
-    color: #a5214b;
-    text-shadow: 1px 1px #333;
-    margin-bottom: 10px;
-    font-size: 20px;
-    text-align: center; }
-    .grupo-1__box__h2 {
-      font-size: 2.5rem;
-      text-align: center;
-      font-weight: 600;
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 10px 0px; }
+    .pie-pagina .grupo-1__box {
+      color: #a5214b;
+      text-shadow: 1px 1px #333;
       margin-bottom: 10px;
-      font-family: Roboto;
-      color: #DC5F00; }
-
-.red-social {
-  float: inline-start; }
-  .red-social a {
-    display: inline-block;
-    text-decoration: none;
-    height: 45px;
-    width: 45px;
-    line-height: 45px;
-    color: #fcfafa;
-    margin-right: 10px;
+      font-size: 20px;
+      text-align: center; }
+      .pie-pagina .grupo-1__box__h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 10px;
+        font-family: Roboto;
+        color: #DC5F00; }
+      .pie-pagina .grupo-1__box .red-social {
+        float: inline-start; }
+        .pie-pagina .grupo-1__box .red-social a {
+          display: inline-block;
+          text-decoration: none;
+          height: 45px;
+          width: 45px;
+          line-height: 45px;
+          color: #fcfafa;
+          margin-right: 10px;
+          background-image: linear-gradient(90deg, #f76c1cce 0%, #fac261 100%);
+          text-align: center;
+          transition: all 300ms ease;
+          border-radius: 10px; }
+          .pie-pagina .grupo-1__box .red-social a:hover {
+            color: #a5214b; }
+  .pie-pagina .grupo-2 {
     background-image: linear-gradient(90deg, #f76c1cce 0%, #fac261 100%);
+    padding: 15px 10px;
     text-align: center;
-    transition: all 300ms ease;
-    border-radius: 10px; }
-    .red-social a:hover {
-      color: #a5214b; }
-
-.pie-pagina .grupo-2 {
-  background-image: linear-gradient(90deg, #f76c1cce 0%, #fac261 100%);
-  padding: 15px 10px;
-  text-align: center;
-  color: #060606; }
-  .pie-pagina .grupo-2 small {
-    font-size: 15px; }
+    color: #060606; }
+    .pie-pagina .grupo-2 small {
+      font-size: 15px; }
 
 /* INDEX*/
 .hero {
@@ -307,27 +317,6 @@ p {
   display: flex;
   justify-content: center;
   margin-right: 10px; }
-
-.container_p {
-  font-family: Lato;
-  font-weight: 300;
-  font-size: 18px;
-  color: #a5214b; }
-
-.titulo_card {
-  text-decoration: underline;
-  font-size: 20px;
-  font-weight: bolder;
-  font-family: Lato;
-  color: #a5214b; }
-
-.card:hover {
-  box-shadow: 1.5px 1.5px 1.5px 1.5px #7d7c7c; }
-
-.card-img-top {
-  height: 33vh;
-  width: 100%;
-  object-fit: cover; }
 
 /* * = CONTACTO- FORMULARIO*/
 .icons {
