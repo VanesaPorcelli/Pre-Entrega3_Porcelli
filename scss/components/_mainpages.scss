@@ -1,0 +1,10 @@
+/* MAIN DE PAG*/
+.pages__fondo {
+    background-image: url(../assets/hero.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    @include tamanio(40vh,100%);
+}

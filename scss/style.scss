@@ -1,0 +1,20 @@
+//import base//
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/mixin";
+@import "./base/_extend";
+
+//import components//
+@import "./components/navbar";
+@import "./components/_titles";
+@import "./components/mainpages";
+@import "./components/fondofjo";
+@import "./components/_fotter";
+
+
+//import layout//
+@import "./layout/_index";
+@import "./layout/productos";
+@import "./layout/_nosotros";
+@import "./layout/_contacto";
+@import "./layout/medias";

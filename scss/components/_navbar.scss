@@ -1,0 +1,42 @@
+/* * = NAVBAR*/
+.navbar-brand {
+    font-size: 1.5rem;
+    font-family: $font-brand;
+        &:hover {
+        color: $color-primary;
+    }
+}
+
+.nav-link {
+    color: $color-p;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: $font-titles;
+    font-size: 1.1rem;
+    transition: 0.1;
+        &:hover {
+        border-top: 1px solid $color-p;
+        border-bottom: 1px solid $color-p;
+    }
+}
+
+.search {
+    @include tamanio(40vh, 80%);
+    border-radius: 60px;
+    margin-right: -35px;
+    border: 2px solid $color-background;
+    font-family: $font-titles;
+}
+
+.btn0 {
+    @include tamanio(40px, 40%);
+    border: none;
+    background-color: $color-background;
+    color: $color-background-btn;
+    border-radius: 10px;
+    font-weight: 700;
+    font-family: $font-titles;
+        &:hover {
+        box-shadow: 1px 1px 1px 1px $color-box-shadow;
+    }
+}
