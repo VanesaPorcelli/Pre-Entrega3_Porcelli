@@ -8,7 +8,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    @include tamanio(85vh, 100%);
+    @include tamanio(70vh, 100%);
     padding-right: 0px;
     &__content{
         display:flex;
@@ -20,7 +20,7 @@
         font-weight: 700;
         font-family: $font-brand;
         color: $color-primary;
-        margin-left: 20px;
+        text-align: center;
         animation-name: titulo;
         animation-iteration-count: 1;
         animation-timing-function: ease;
@@ -35,15 +35,20 @@
     }
 }
 }
-
-.iconos__h3 {
-    color: $color-second;
-    font-size: 1.15rem;
-    &:hover {
-        font-style: oblique;
-        font-weight: bold;
+.icon{
+    .icon__img{
+        @include tamanio(135px,142px);
+    }
+    .icon__h3 {
+        color: $color-second;
+        font-size: 1.15rem;
+        &:hover {
+            font-style: oblique;
+            font-weight: bold;
+        }
     }
 }
+
 
 .product {
     background-color: $color-background-body;
@@ -62,7 +67,7 @@
 /* KEYFRAMES*/
 @keyframes titulo {
     0% {
-        letter-spacing: 1em;
+        letter-spacing:20px;
         transform: translateZ(400px);
         opacity: 0;
     }

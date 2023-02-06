@@ -33,8 +33,8 @@ a {
   height: 40px;
   width: 40%;
   border: none;
-  background-color: #f0791dfe;
-  color: #fcfafa;
+  background-color: #f76c1cce;
+  color: #060606;
   border-radius: 10px;
   font-weight: 700;
   font-family: Rubik; }
@@ -63,7 +63,7 @@ a {
 
 /* MAIN DE PAG*/
 .pages__fondo {
-  background-image: url(../assets/hero.jpg);
+  background-image: url(../assets/hero2.png);
   object-fit: cover;
   background-position: center;
   background-size: cover;
@@ -141,7 +141,7 @@ a {
     height: 45px;
     width: 45px;
     line-height: 45px;
-    color: #fcfafa;
+    color: #060606;
     margin-right: 10px;
     background-image: linear-gradient(90deg, #f76c1cce 0%, #fac261 100%);
     text-align: center;
@@ -160,7 +160,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 85vh;
+  height: 70vh;
   width: 100%;
   padding-right: 0px; }
   .hero__content {
@@ -173,7 +173,7 @@ a {
       font-weight: 700;
       font-family: Roboto;
       color: #DC5F00;
-      margin-left: 20px;
+      text-align: center;
       animation-name: titulo;
       animation-iteration-count: 1;
       animation-timing-function: ease;
@@ -185,10 +185,14 @@ a {
       font-family: Lato;
       color: #060606; }
 
-.iconos__h3 {
+.icon .icon__img {
+  height: 135px;
+  width: 142px; }
+
+.icon .icon__h3 {
   color: #a5214b;
   font-size: 1.15rem; }
-  .iconos__h3:hover {
+  .icon .icon__h3:hover {
     font-style: oblique;
     font-weight: bold; }
 
@@ -206,7 +210,7 @@ a {
 /* KEYFRAMES*/
 @keyframes titulo {
   0% {
-    letter-spacing: 1em;
+    letter-spacing: 20px;
     transform: translateZ(400px);
     opacity: 0; }
   40% {

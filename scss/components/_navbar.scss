@@ -21,9 +21,10 @@
 }
 .btn0 {
     @include tamanio(40px, 40%);
+    
     border: none;
-    background-color: $color-background;
-    color: $color-background-btn;
+    background-color:$color-gradient1;
+    color: $color-p;
     border-radius: 10px;
     font-weight: 700;
     font-family: $font-titles;
