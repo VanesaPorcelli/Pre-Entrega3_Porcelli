@@ -1,3 +1,17 @@
+
+/* LARGE SCREENS */
+@media (min-width: 700px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .wrapper>* {
+        padding: 2em;
+    }
+
+}
+
 /* PAGINA PRODUCTOS media */
 @media screen and (max-width: 800px) {
     .pie-pagina .grupo-1 {
@@ -5,21 +19,5 @@
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
         padding: 35px 0px;
-    }
-}
-
-/* LARGE SCREENS */
-@media(min-width: 700px) {
-    .wrapper{
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-    }
-
-    .wrapper > *{
-        padding: 2em;
-    }
-
-    .company-info h3, .company-info ul, .brand {
-        text-align: left;
     }
 }
