@@ -152,7 +152,7 @@ a {
 
 /* INDEX*/
 .hero {
-  background-image: url(../assets/hero2.png);
+  background-image: url("../assets/hero2.png");
   object-fit: cover;
   display: flex;
   align-items: center;
@@ -173,7 +173,6 @@ a {
       font-weight: 700;
       font-family: Roboto;
       color: #DC5F00;
-      text-align: center;
       animation-name: titulo;
       animation-iteration-count: 1;
       animation-timing-function: ease;
