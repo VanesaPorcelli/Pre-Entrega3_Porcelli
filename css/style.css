@@ -152,7 +152,7 @@ a {
 
 /* INDEX*/
 .hero {
-  background-image: url(../assets/hero.jpg);
+  background-image: url(../assets/hero2.png);
   object-fit: cover;
   display: flex;
   align-items: center;
@@ -160,7 +160,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 70vh;
+  height: 75vh;
   width: 100%;
   padding-right: 0px; }
   .hero__content {
@@ -186,8 +186,8 @@ a {
       color: #060606; }
 
 .icon .icon__img {
-  height: 135px;
-  width: 142px; }
+  height: 110px;
+  width: 110px; }
 
 .icon .icon__h3 {
   color: #a5214b;

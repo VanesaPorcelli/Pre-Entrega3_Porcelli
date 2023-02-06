@@ -1,6 +1,6 @@
 /* INDEX*/
 .hero {
-    background-image: url(../assets/hero.jpg);
+    background-image: url(../assets/hero2.png);
     object-fit: cover;
     display: flex;
     align-items: center;
@@ -8,7 +8,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    @include tamanio(70vh, 100%);
+    @include tamanio(75vh, 100%);
     padding-right: 0px;
     &__content{
         display:flex;
@@ -37,7 +37,7 @@
 }
 .icon{
     .icon__img{
-        @include tamanio(135px,142px);
+        @include tamanio(110px,110px);
     }
     .icon__h3 {
         color: $color-second;
@@ -51,7 +51,7 @@
 
 
 .product {
-    background-color: $color-background-body;
+    background-color:$color-background-body;
         & h3 {
         color: $color-second;
         font-size: 1.3rem;
