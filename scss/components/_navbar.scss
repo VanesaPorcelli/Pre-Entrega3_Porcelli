@@ -21,7 +21,7 @@
 }
 .btn0 {
     @include tamanio(35px, 40%);
-    
+    margin-top:3px ;
     border: none;
     background-color:$color-gradient1;
     color: $color-p;

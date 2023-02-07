@@ -32,6 +32,7 @@ a {
 .btn0 {
   height: 35px;
   width: 40%;
+  margin-top: 3px;
   border: none;
   background-color: #f76c1cce;
   color: #060606;
