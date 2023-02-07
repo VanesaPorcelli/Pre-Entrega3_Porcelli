@@ -20,7 +20,7 @@
     }
 }
 .btn0 {
-    @include tamanio(40px, 40%);
+    @include tamanio(35px, 40%);
     
     border: none;
     background-color:$color-gradient1;
