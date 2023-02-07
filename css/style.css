@@ -328,81 +328,47 @@ p {
   color: #333;
   box-shadow: none; }
 
+/* * = CONTACTO- FORMULARIO*/
 .container_form {
   max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding: 1em; }
-
-ul {
-  list-style: none;
-  padding: 0; }
-
-.brand {
-  text-align: center; }
-
-.brand span {
-  color: white; }
+  .container_form .company-info {
+    background: #eaecee;
+    background-image: url("../assets/hero2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .container_form .contact {
+    background: #F9FEFF;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .container_form .contact form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 0px; }
+      .container_form .contact form button {
+        background: #fac261;
+        border: 0;
+        text-transform: uppercase; }
+        .container_form .contact form button:hover {
+          background: #f76c1cce;
+          color: #060606;
+          font-weight: bolder;
+          outline: 0;
+          transition: background-color 2s ease-out; }
+      .container_form .contact form .full {
+        grid-column: 1 / 3; }
 
 .wrapper {
   box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7); }
-
-.wrapper > * {
-  padding: 1em; }
-
-.company-info {
-  background-image: url("../assets/fondo2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.company-info h3, .company-info ul {
-  text-align: left;
-  margin: 0 1ren 0; }
-
-.contact {
-  background: #F9FEFF; }
-
-/* FORM STYLES */
-.contact form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px; }
-
-.contact form label {
-  display: block; }
-
-.contact form p {
-  margin: 0; }
-
-.contact form .full {
-  grid-column: 1 / 3; }
+  .wrapper > * {
+    padding: 1em; }
 
 .contact form button, .contact form input, .contact form textarea {
   width: 100%;
-  padding: 1em;
+  padding: 8px;
   border: 1px solid #C9E6FF; }
-
-.contact form button {
-  background: #c9e6ff;
-  border: 0;
-  text-transform: uppercase; }
-
-.contact form button:hover, .contact form button:focus {
-  background: #92BDE7;
-  color: white;
-  outline: 0;
-  transition: background-color 2s ease-out; }
-
-/* LARGE SCREENS */
-@media (min-width: 700px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr; }
-  .wrapper > * {
-    padding: 2em; }
-  .company-info h3, .company-info ul, .brand {
-    text-align: left; } }
 
 /* LARGE SCREENS */
 @media (min-width: 700px) {
