@@ -48,7 +48,7 @@ a {
   color: #DC5F00; }
 
 .h2_title {
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   font-weight: 500;
   font-family: Rubik, cursive;
   color: #a5214b;
@@ -334,8 +334,7 @@ p {
   margin: auto;
   padding: 1em; }
   .container_form .company-info {
-    background: #eaecee;
-    background-image: url("../assets/hero2.png");
+    background-image: url("../assets/nuez_tukura.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
