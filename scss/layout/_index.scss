@@ -8,7 +8,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    @include tamanio(75vh, 100%);
+    @include tamanio(80vh, 100%);
     padding-right: 0px;
     &__content{
         display:flex;
