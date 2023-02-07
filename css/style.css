@@ -351,12 +351,10 @@ ul {
   padding: 1em; }
 
 .company-info {
-  background: #C9E6FF;
-  background-image: url(../assets/fondo2.jpg);
+  background-image: url("https://img.freepik.com/foto-gratis/tazon-fuente-granola-avena-yogur-arandanos-frescos-moras-fresas-kiwi-platano-menta-nueces-desayuno-saludable-vista-superior-espacio-copia-endecha-plana-concepto-comida-vegetariana_1150-45645.jpg?w=740&t=st=1675730737~exp=1675731337~hmac=7477202d207f20fe269e94b1cad6e794eade64be319b0cd6dfa75cebb2f33131");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  color: #485E74; }
+  background-size: cover; }
 
 .company-info h3, .company-info ul {
   text-align: left;
