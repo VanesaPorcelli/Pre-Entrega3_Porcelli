@@ -162,6 +162,8 @@ a {
   background-attachment: fixed;
   height: 80vh;
   width: 100%;
+  min-width: 450px;
+  min-height: 450px;
   padding-right: 0px; }
   .hero__content {
     display: flex;

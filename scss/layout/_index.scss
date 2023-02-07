@@ -9,6 +9,9 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     @include tamanio(80vh, 100%);
+    min-width: 450px;
+    min-height: 450px;
+
     padding-right: 0px;
     &__content{
         display:flex;
