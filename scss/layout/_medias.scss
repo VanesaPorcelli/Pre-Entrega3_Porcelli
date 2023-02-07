@@ -11,8 +11,6 @@
     }
 
 }
-
-/* PAGINA PRODUCTOS media */
 @media screen and (max-width: 800px) {
     .pie-pagina .grupo-1 {
         width: 90%;
@@ -20,10 +18,4 @@
         grid-gap: 30px;
         padding: 35px 0px;
     }
-}
-
-@media only screen and (min-width:320px)and (max-whidth:576px) {
-    .hero{
-        background-image: url("../assets/fondo2.png");
-}
 }

@@ -61,6 +61,12 @@ a {
   font-family: Lato;
   color: #a5214b; }
 
+.titulo_product {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Lato;
+  color: #a5214b; }
+
 /* MAIN DE PAG*/
 .pages__fondo {
   background-image: url(../assets/hero2.png);
@@ -219,108 +225,57 @@ a {
     opacity: 1; } }
 
 /* PAGINA PRODUCTOS*/
-.carousel-item {
-  height: 300px; }
-
-h1 {
-  font-size: 50px;
-  line-height: 60px;
-  color: #060606; }
-
-h2 {
-  font-size: 46px;
-  line-height: 54px;
-  color: #060606; }
-
-h4 {
-  font-size: 20px;
-  color: #060606; }
-
-h6 {
-  font-weight: 700;
-  font-size: #060606; }
-
-p {
-  font-size: 16px;
-  color: #060606;
-  margin: 15px 0 20px 0; }
-
-.body {
-  width: 100%; }
-
-.h3_product {
-  color: #088178; }
-
-#product1 {
+.productos {
   text-align: center; }
-
-#product1 .pro-container {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 20px;
-  flex-wrap: wrap;
-  gap: 15px; }
-
-#product1 .pro {
-  width: 10%;
-  min-width: 250px;
-  padding: 10px 12px;
-  border: 1px solid #DC5F00;
-  border-radius: 25px;
-  cursor: pointer;
-  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-  margin: 15px 0;
-  transition: 0.2s ease;
-  position: relative; }
-
-#product1 .pro:hover {
-  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2); }
-
-#product1 .pro img {
-  width: 100%;
-  height: 30vh;
-  border-radius: 20px; }
-
-#product1 .pro .des {
-  text-align: start;
-  padding: 10px 0; }
-
-#product1 .pro .des .span {
-  color: #606063;
-  font-size: 12px; }
-
-#product1 .pro .des .h5 {
-  padding-top: 7px;
-  color: #1a1a1a;
-  font-size: 14px; }
-
-#product1 .pro .des i {
-  font-size: 12px;
-  color: #f3b519; }
-
-#product1 .pro .des h4 {
-  padding-top: 7px;
-  font-size: 15px;
-  font-weight: 700;
-  color: #088178; }
-
-#product1 .pro .cart {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  border-radius: 50px;
-  background-color: #fcfafa;
-  font-weight: 500;
-  color: #088178;
-  border: 1px solid #fcfafa;
-  position: absolute;
-  bottom: 20px;
-  right: 10px; }
-
-.pagination {
-  display: flex;
-  justify-content: center;
-  margin-right: 10px; }
+  .productos .pro-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    gap: 15px; }
+    .productos .pro-container .pro {
+      width: 10%;
+      min-width: 250px;
+      padding: 10px 12px;
+      border: 1px solid #DC5F00;
+      border-radius: 25px;
+      cursor: pointer;
+      box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+      margin: 15px 0;
+      transition: 0.2s ease;
+      position: relative; }
+      .productos .pro-container .pro:hover {
+        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2); }
+      .productos .pro-container .pro img {
+        width: 100%;
+        height: 30vh;
+        border-radius: 20px; }
+      .productos .pro-container .pro .des {
+        text-align: start;
+        padding: 10px 0; }
+        .productos .pro-container .pro .des span {
+          color: #606063;
+          font-size: 16px; }
+        .productos .pro-container .pro .des i {
+          font-size: 12px;
+          color: #f3b519; }
+        .productos .pro-container .pro .des h4 {
+          padding-top: 7px;
+          font-size: 15px;
+          font-weight: 700;
+          color: #088178; }
+      .productos .pro-container .pro .cart {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50px;
+        background-color: #fcfafa;
+        font-weight: 500;
+        color: #088178;
+        border: 1px solid #fcfafa;
+        position: absolute;
+        bottom: 20px;
+        right: 10px; }
 
 /* * = CONTACTO- PREGUNTAS FRECUENTES*/
 .accordion-button:not(.collapsed) {
@@ -377,14 +332,9 @@ p {
   .wrapper > * {
     padding: 2em; } }
 
-/* PAGINA PRODUCTOS media */
 @media screen and (max-width: 800px) {
   .pie-pagina .grupo-1 {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     padding: 35px 0px; } }
-
-@media only screen and (min-width: 320px) and (max-whidth: 576px) {
-  .hero {
-    background-image: url("../assets/fondo2.png"); } }

@@ -10,7 +10,7 @@
     background-attachment:fixed;
     @include tamanio(80vh, 100%);
     padding-right: 0px;
-    &__content{
+        &__content{
         display:flex;
         flex-direction:column;
         justify-content:space-evenly;
