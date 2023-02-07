@@ -102,55 +102,46 @@
         </section>
 
         <!-- FOMRULARIO-->
-        <body>
-            <div class="container">
-                <h1 class="brand"><span>JL</span> Web Design</h1>
-                <div class="wrapper animated bounceInLeft">
-                    <div class="company-info">
-                        <h3>JL Web Design</h3>
-                        <ul>
-                            <li><i class="fa fa-road"></i> Donggaun, China</li>
-                            <li><i class="fa fa-phone"></i> (555) 555 555</li>
-                            <li><i class="fa fa-envelope"></i> test@web.design</li>
-                        </ul>
-                    </div>
-                    <div class="contact">
-                        <h3>Email us</h3>
-                        <form>
-                            <p>
-                                <label>Name</label>
-                                <input type="text" name="name">
-                            </p>
-                            <p>
-                                <label>Company</label>
-                                <input type="text" name="company">
-                            </p>
-                            <p>
-                                <label>Email Address</label>
-                                <input type="email" name="email">
-                            </p>
-                            <p>
-                                <label>Phone Number</label>
-                                <input type="text" name="phone">
-                            </p>
-                            <p class="full">
-                                <label>Message</label>
-                                <textarea name="message" rows="5"></textarea>
-                            </p>
-    
-                            <p class="full">
-                                <button>Submit</button>
-                            </p>
-                        </form>
-    
-                    </div>
+        <div class="container_form pt-5">
+
+            <div class="wrapper">
+                <div class="company-info">
+                </div>
+                <div class="contact">
+                    <fieldset>
+                        <h2 class="h2_title text-start m-1"> Envianos tu mensaje:</h2>
+                    </fieldset>
+                    <form>
+                        <p class="m-3">
+                            <label class="d-block">Nombre </label>
+                            <input type="text" name="name" placeholder="Ingrese su nombre">
+                        </p>
+                        <p class="m-3">
+                            <label class="d-block">Apellido</label>
+                            <input type="text" name="name" placeholder="Ingrese su apellido">
+                        </p>
+                        <p class="m-3">
+                            <label class="d-block">E-mail</label>
+                            <input type="email" name="email" placeholder="Ingrese su E-Mail">
+                        </p>
+                        <p class="m-3">
+                            <label class="d-block">Teléfono</label>
+                            <input type="text" name="phone" placeholder="Ingrese su Teléfono">
+                        </p>
+                        <p class="full ms-3 me-3 mt-0 mb-0">
+                            <label>Mensaje, sugerencia o Reclamo:</label>
+                            <textarea class="style" name="message" rows="3"
+                                placeholder="Ingrese su mensaje, sugerencia o reclamo"></textarea>
+                        </p>
+
+                        <p class="full m-3">
+                            <button>Enviar</button>
+                        </p>
+                    </form>
+
                 </div>
             </div>
-    
-    
-    
-    
-        </body>
+        </div>
 
 
 
