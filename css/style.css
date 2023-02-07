@@ -162,8 +162,6 @@ a {
   background-attachment: fixed;
   height: 80vh;
   width: 100%;
-  min-width: 300px;
-  min-height: 500px;
   padding-right: 0px; }
   .hero__content {
     display: flex;
@@ -386,3 +384,7 @@ p {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     padding: 35px 0px; } }
+
+@media only screen and (min-width: 320px) and (max-whidth: 576px) {
+  .hero {
+    background-image: url("../assets/fondo2.png"); } }
