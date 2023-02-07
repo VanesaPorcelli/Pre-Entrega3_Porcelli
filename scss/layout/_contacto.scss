@@ -12,6 +12,13 @@
     max-width: 1170px;
     margin: auto;
     padding: 1em;
+    .company-info {
+        background: #eaecee;
+        background-image: url("../assets/fondo2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        }
     .contact {
         background: #F9FEFF;
         padding-top: 10px;
@@ -39,13 +46,6 @@
         }
 }
 
-.company-info {
-    background: #eaecee;
-    background-image: url("../assets/fondo2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    }
 
 .wrapper {
     box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
