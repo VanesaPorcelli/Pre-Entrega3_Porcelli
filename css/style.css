@@ -70,7 +70,7 @@ a {
 
 /* MAIN DE PAG*/
 .pages__fondo {
-  background-image: url(../assets/hero2.png);
+  background-image: url(../assets/hero2.avif);
   object-fit: cover;
   background-position: center;
   background-size: cover;
@@ -80,7 +80,7 @@ a {
   width: 100%; }
 
 .fondo-fijo {
-  background-image: url(../assets/bgfixed.jpg);
+  background-image: url(../assets/bgfixed.avif);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -104,7 +104,7 @@ a {
 
 /* FOTTER*/
 .pie-pagina {
-  background-image: url(../assets/fondo_prueba14.png);
+  background-image: url(../assets/fondo_prueba14.avif);
   object-fit: cover;
   background-position: center;
   background-size: cover;
@@ -159,7 +159,7 @@ a {
 
 /* INDEX*/
 .hero {
-  background-image: url("../assets/hero.jpg");
+  background-image: url("../assets/hero.avif");
   object-fit: cover;
   display: flex;
   align-items: center;
@@ -260,7 +260,7 @@ a {
         .productos .pro-container .pro .des i {
           font-size: 12px;
           color: #f3b519; }
-        .productos .pro-container .pro .des h4 {
+        .productos .pro-container .pro .des h3 {
           padding-top: 7px;
           font-size: 15px;
           font-weight: 700;
@@ -290,7 +290,7 @@ a {
   margin: auto;
   padding: 1em; }
   .container_form .company-info {
-    background-image: url("../assets/nuez_tukura.jpg");
+    background-image: url("../assets/nuez_tukura.avif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
